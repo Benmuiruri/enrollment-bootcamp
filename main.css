@@ -1,25 +1,69 @@
 /* HEADER STYLES */
 header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0 16px; */
   height: 56px;
   width: 100%;
   z-index: 20;
 }
+header p {
+  display: inline-block;
+  margin-left: 3px;
+  font-weight: bold;
+}
+.header-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.center {
+  margin-left: 30px;
+}
 .fa-youtube {
-    font-size: 50px;
+  color: red;
+  font-size: 50px;
+}
+.fa-microphone {
+  color: black;
+  font-size: 22px;
+}
+.microphone {
+  background-color: #f9f9f9;
+  border-radius: 99px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 1.7em;
+  height: 1.5em;
+  padding-top: 0.25em;
+  margin-left: 5px;
+  text-align: center;
+  width: 1.5em;
 }
 input {
-    height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 2px 0 0 2px;
+  box-shadow: inset 0 1px 2px #eee;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 10px;
+  height: 40px;
+  width: 600px;
+}
+
+.end i {
+  font-size: 25px;
+  padding-left: 20px;
+}
+.fa-user {
+  padding-right: 5px;
 }
 /* CONTENT-CONTAINER STYLES */
 
 .content-container {
-    /* margin-top: 56px; */
+  /* margin-top: 56px; */
 }
 
 /* VIDEO STYLES */
