@@ -1,0 +1,34 @@
+/* HEADER STYLES */
+header {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 16px; */
+  height: 56px;
+  width: 100%;
+  z-index: 20;
+}
+.fa-youtube {
+    font-size: 50px;
+}
+input {
+    height: 40px;
+}
+/* CONTENT-CONTAINER STYLES */
+
+.content-container {
+    /* margin-top: 56px; */
+}
+
+/* VIDEO STYLES */
+.video {
+  background-color: blue;
+  height: 100%;
+}
+
+/* SIDE-BAR STYLES */
+.side-bar {
+  background-color: yellow;
+}
