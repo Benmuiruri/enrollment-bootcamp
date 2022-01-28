@@ -2,6 +2,9 @@ a {
   text-decoration: none;
   color: black;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
 /* HEADER STYLES */
 header {
   background-color: #ffffff;
@@ -68,7 +71,7 @@ input {
   font-family: "Roboto", sans-serif;
   padding-left: 10px;
   height: 40px;
-  width: 600px;
+  width: 550px;
 }
 .input-search {
   display: flex;
@@ -107,7 +110,7 @@ input {
   height: 100%;
   flex: 1;
   padding-top: 22px;
-  margin-left: 130px;
+  margin-left: 100px;
 }
 .video-container {
   display: flex;
@@ -146,13 +149,13 @@ input {
 .side-bar {
   background: transparent;
   padding-top: 20px;
-  max-width: 400px;
-  padding-right: 50px;
+  max-width: 480px;
+  padding-right: 30px;
 }
 .related-thumbnail {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: start;
   margin-bottom: 10px;
 }
 .related-thumbnail button {
@@ -164,28 +167,43 @@ input {
   min-width: 12px;
   height: 32px;
   padding: 0 12px;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   line-height: 2rem;
   letter-spacing: 0.2px;
+  margin-right: 10px;
 }
 #all {
   background-color: black;
   color: white;
+  margin-left: 10px;
 }
 .thumbnail-details {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 5px;
+  padding-left: 10px;
+  padding-right: 2px;
+  padding-bottom: 10px;
 }
 
 .thumbnail-details h3 {
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  line-height: 1.4em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  /* line-height: 2rem; */
+  /* font-stretch: ultra-condensed; */
 }
 
 .thumbnail-details p {
-  padding-top: 3px;
+      color: #606060;
+      font-size: 12px;
+  /* margin-top: 2px; */
+  /* margin-bottom: 2px; */
+  padding-bottom: 5px;
 }
 
 .thumbnail-content {
