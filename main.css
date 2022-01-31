@@ -118,7 +118,7 @@ input {
 }
 #video-info {
   margin-left: 25px;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #e0e0e0;
   padding-bottom: 20px;
   margin-right: 25px;
 }
@@ -162,10 +162,96 @@ input {
   font-size: 16px;
   justify-content: space-between;
   align-items: flex-end;
-  /* margin-right: 24px; */
   width: 400px;
 }
-
+/* VIDEO DESCRIPTION STYLES */
+#video-description {
+  margin-left: 25px;
+}
+#description-content {
+  margin-bottom: 12px;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.user-name-link {
+  background-color: #00579c;
+  border-radius: 99px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.8em;
+  height: 1.6em;
+  line-height: 1;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 1.6em;
+}
+#upload-info {
+  flex: 1;
+  flex-basis: 1e-9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+#upload-info h4 {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  margin-bottom: 5px;
+}
+#subsriber-count P {
+  color: #606060;
+  font-size: 11px;
+}
+#subscribe-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cd3b31;
+  width: 110px;
+  height: 36px;
+  margin-right: 25px;
+}
+#subscribe-btn {
+  background-color: #cd3b31;
+  border: none;
+  color: white;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#description-text {
+  color: #030303;
+  margin-top: 15px;
+  padding-left: 55px;
+  max-width: 600px;
+  word-wrap: break-word;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+}
+#show-more {
+  margin-top: 12px;
+  text-transform: uppercase;
+  color: #606060;
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+#video-description-content {
+  border-bottom: 1px solid #e0e0e0;
+}
 /* SIDE-BAR STYLES */
 #secondary {
   background: transparent;
