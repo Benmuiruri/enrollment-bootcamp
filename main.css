@@ -255,13 +255,30 @@ input {
 
 /* COMMENTS SECTION STYLES */
 #comments {
+  padding-left: 22px;
 }
 #comment-title {
-  background-color: purple;
+  margin-top: 30px;
   margin-bottom: 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  color: #030303;
+}
+#comment-count {
+  display: inline-block;
+  margin: 0 32px 0 0;
+  align-self: flex-start;
+  font-size: 17px;
+  font-weight: 400;
+}
+#sort-icon {
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+#sort-text {
+  text-transform: uppercase;
 }
 /* SIDE-BAR STYLES */
 #secondary {
