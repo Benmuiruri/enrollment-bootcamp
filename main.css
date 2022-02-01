@@ -183,7 +183,6 @@ input {
   display: inline-block;
   font-size: 1.8em;
   height: 1.6em;
-  line-height: 1;
   padding-top: 10px;
   text-align: center;
   text-decoration: none;
@@ -279,6 +278,53 @@ input {
 }
 #sort-text {
   text-transform: uppercase;
+}
+#comment-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+#comment-author {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+#comment-author a {
+  font-size: 1.5em;
+  padding-top: 6px;
+}
+#comment-input {
+  cursor: text;
+  padding-bottom: 4px;
+   /* red; */
+  flex: 1;
+}
+#comment {
+  border: none;
+  /* color: #606060; */
+  flex: 1;
+  width: 100%;
+  font-size: 14px;
+  /* line-height: 2px; */
+  font-weight: 400;
+  font-family: "Roboto","Arial",sans-serif;
+  height: 25px;
+  background-color: transparent;
+  outline: none;
+  /* margin-bottom: 50px; */
+  border-bottom: 1px solid #909090
+}
+#comment-footer {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: flex-end; */
+}
+#comment-footer-buttons {
+  display: flex;
+  flex-direction: row;
 }
 /* SIDE-BAR STYLES */
 #secondary {
