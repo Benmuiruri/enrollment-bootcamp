@@ -1,9 +1,19 @@
+/* GLOBAL STYLES */
 a {
   text-decoration: none;
   color: black;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
+}
+.btn {
+  border: none;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 /* HEADER STYLES */
 header {
@@ -216,7 +226,6 @@ input {
   background-color: #cd3b31;
   width: 110px;
   height: 36px;
-  margin-right: 25px;
 }
 #subscribe-btn {
   background-color: #cd3b31;
@@ -249,12 +258,14 @@ input {
   margin-bottom: 20px;
 }
 #video-description-content {
+  margin-right: 25px;
   border-bottom: 1px solid #e0e0e0;
 }
 
 /* COMMENTS SECTION STYLES */
 #comments {
   padding-left: 22px;
+  margin-right: 25px;
 }
 #comment-title {
   margin-top: 30px;
@@ -297,34 +308,54 @@ input {
 #comment-input {
   cursor: text;
   padding-bottom: 4px;
-   /* red; */
   flex: 1;
 }
 #comment {
   border: none;
-  /* color: #606060; */
   flex: 1;
   width: 100%;
   font-size: 14px;
-  /* line-height: 2px; */
   font-weight: 400;
-  font-family: "Roboto","Arial",sans-serif;
+  font-family: "Roboto", "Arial", sans-serif;
   height: 25px;
   background-color: transparent;
   outline: none;
-  /* margin-bottom: 50px; */
-  border-bottom: 1px solid #909090
+  border-bottom: 1px solid #909090;
+  word-break: break-all;
+  margin-bottom: 10px;
 }
 #comment-footer {
-  background-color: red;
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* justify-content: flex-end; */
+  justify-content: space-between;
 }
+
 #comment-footer-buttons {
   display: flex;
   flex-direction: row;
+}
+.comment-btn {
+  height: 30px;
+  width: 120px;
+  padding-top: 4px;
+  font-size: 14px;
+}
+#cancel-button {
+  background-color: transparent;
+  color: #606060;
+  margin-right: 20px;
+}
+#comment-button {
+  background-color: #ececec;
+  color: #909090;
+}
+#contents {
+  margin-top: 40px;
+}
+#inside-contents {
+  margin-left: 54px;
+  border: 1px solid red;
 }
 /* SIDE-BAR STYLES */
 #secondary {

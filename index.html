@@ -156,7 +156,9 @@
           <div id="comments-header">
             <div id="comment-title">
               <h3 id="comment-count">187 Comments</h3>
-              <a href="" id="sort-icon"><i class="fas fa-sort-amount-down"></i></a>
+              <a href="" id="sort-icon"
+                ><i class="fas fa-sort-amount-down"></i
+              ></a>
               <span id="sort-text">Sort by</span>
             </div>
             <div id="comment-box">
@@ -166,18 +168,36 @@
                 </a>
               </div>
               <div id="comment-input">
-                <input type="text" name="comment" id="comment" placeholder="Add a public comment...">
+                <input
+                  type="text"
+                  name="comment"
+                  id="comment"
+                  placeholder="Add a public comment..."
+                />
                 <div id="comment-footer">
                   <span id="emoji-button">&#128540;</span>
                   <div id="comment-footer-buttons">
-                    <div id="cancel">
-                      <button><button>
+                    <div class="comment-button-wrapper">
+                      <a href="">
+                        <button class="btn comment-btn" id="cancel-button">
+                          <span>cancel</span>
+                        </button>
+                      </a>
                     </div>
-                    <div id="comment">
-                      <button>comment</button>
+                    <div class="comment-button-wrapper">
+                      <a href="">
+                        <button class="btn comment-btn" id="comment-button">
+                          <span>comment</span>
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div id="contents">
+              <div id="inside-contents">
+                <span>This is where the comments come</span>
               </div>
             </div>
           </div>
