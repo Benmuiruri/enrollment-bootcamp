@@ -245,8 +245,9 @@ input {
   max-width: 600px;
   word-wrap: break-word;
   font-family: "Roboto", "Arial", sans-serif;
-  font-size: 13px;
-  line-height: 1.2;
+  font-stretch: ultra-condensed;
+  font-size: 14px;
+  line-height: 1.2rem;
   letter-spacing: 0.2px;
   font-weight: 400;
 }
@@ -353,9 +354,81 @@ input {
 #contents {
   margin-top: 40px;
 }
-#inside-contents {
-  margin-left: 54px;
-  border: 1px solid red;
+#comment-body {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+#author-thumbnail {
+  flex: none;
+  margin-right: 12px;
+}
+#comment-main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+#comment-header {
+  margin-bottom: 2px;
+}
+#header-author {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+#author-text {
+  margin-right: 10px;
+  color: #030303;
+  margin-bottom: 2px;
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+}
+#comment-date {
+  color: #606060;
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+}
+#comment-text {
+  color: #030303;
+  word-wrap: break-word;
+  font-size: 14px;
+  height: 20px;
+  line-height: 1.4rem;
+  font-weight: 400;
+}
+#comment-buttons {
+  margin-top: 5px;
+}
+#buttons-toolbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+  color: #606060;
+}
+#action-menu {
+  display: flex;
+  flex-direction: row;
+}
+#action-menu-ellipsis {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.info-menu-link {
+  margin-right: 8px;
+  font-size: 14px;
+}
+#like-count {
+  margin-right: 15px;
+  font-size: 10px;
+}
+
+#reply-button {
+ text-transform: uppercase;
+ font-size: 12px;
+ margin-left: 20px;
 }
 /* SIDE-BAR STYLES */
 #secondary {
