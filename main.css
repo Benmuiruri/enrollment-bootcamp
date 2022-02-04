@@ -408,14 +408,6 @@ input {
   margin-top: 10px;
   color: #606060;
 }
-#action-menu {
-  display: flex;
-  flex-direction: row;
-}
-#action-menu-ellipsis {
-  margin-top: 10px;
-  font-size: 18px;
-}
 .info-menu-link {
   margin-right: 8px;
   font-size: 14px;
@@ -423,6 +415,14 @@ input {
 #like-count {
   margin-right: 15px;
   font-size: 10px;
+}
+#action-menu {
+  display: flex;
+  flex-direction: row;
+}
+#action-menu-ellipsis {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 #reply-button {
